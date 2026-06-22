@@ -7,7 +7,7 @@ public class Main {
         store.addItem(new Product("2", "Phone", "Electronics", 500));
         store.addItem(new Product("3", "Table", "Furniture", 200));
 
-        System.out.println("ALL PRODUCTS:");
+        System.out.println("ALL PRODUCTS:");c
         store.displayAll();
 
         System.out.println("\nFILTER ELECTRONICS:");
