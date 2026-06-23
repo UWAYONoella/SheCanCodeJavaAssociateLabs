@@ -1,2 +1,0 @@
-Line 3: "BADLINE,MISSING_FIELDS" - Expected 4 fields, found 2
-Line 4: "TXN003,ACC001,ACC002,abc" - Invalid amount format
