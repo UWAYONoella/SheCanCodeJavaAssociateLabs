@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11d11bb5-5979-46ea-82f7-daab300cbff9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -53,6 +55,13 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab2_1_streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SheCanCodeJavaAssociateLabs" />
       <method v="2">
@@ -64,6 +73,11 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,7 +99,7 @@
       <workItem from="1782219372195" duration="77000" />
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
-      <workItem from="1782286305096" duration="4498000" />
+      <workItem from="1782286305096" duration="6862000" />
     </task>
     <servers />
   </component>
