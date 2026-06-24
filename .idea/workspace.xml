@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11d11bb5-5979-46ea-82f7-daab300cbff9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week1_advanced_java_core_foundations" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsServiceTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
@@ -37,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BenchmarkRunner.executor": "Debug",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,10 +57,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch">
+    <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.streams.BenchmarkRunner" />
+      <module name="lab2_1_streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lab2_1_streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalyticsServiceTest.sequentialAndParallelShouldMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2_1_streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shecancode.streams" />
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.streams.AnalyticsServiceTest" />
+      <option name="METHOD_NAME" value="sequentialAndParallelShouldMatch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
+        <item itemvalue="Application.BenchmarkRunner" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,7 +133,7 @@
       <workItem from="1782219372195" duration="77000" />
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
-      <workItem from="1782286305096" duration="6862000" />
+      <workItem from="1782286305096" duration="10107000" />
     </task>
     <servers />
   </component>
