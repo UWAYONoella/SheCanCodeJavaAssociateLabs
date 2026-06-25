@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11d11bb5-5979-46ea-82f7-daab300cbff9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week1_advanced_java_core_foundations" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsServiceTest.java" root0="FORCE_HIGHLIGHTING" />
@@ -39,8 +42,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BenchmarkRunner.executor": "Debug",
+    "Application.BenchmarkRunner.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch.executor": "Run",
+    "JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -54,10 +59,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shecancode.designpatterns" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing">
     <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shecancode.streams.BenchmarkRunner" />
       <module name="lab2_1_streams" />
@@ -94,6 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationMessageTest.shouldThrowExceptionWhenBodyMissing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2_2_design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.designpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shecancode.designpatterns" />
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.designpatterns.NotificationMessageTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenBodyMissing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SheCanCodeJavaAssociateLabs" />
       <method v="2">
@@ -107,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing" />
         <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
         <item itemvalue="Application.BenchmarkRunner" />
         <item itemvalue="Application.Main" />
@@ -133,11 +161,23 @@
       <workItem from="1782219372195" duration="77000" />
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
-      <workItem from="1782286305096" duration="10107000" />
+      <workItem from="1782286305096" duration="10739000" />
+      <workItem from="1782376426869" duration="6283000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_2_design_patterns/src/main/java/com/shecancode/designpatterns/CreditCardStrategy.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
