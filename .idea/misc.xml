@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/pom.xml" />
+        <option value="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_2_design_patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_3_persistence/pom.xml" />
       </list>
     </option>
   </component>

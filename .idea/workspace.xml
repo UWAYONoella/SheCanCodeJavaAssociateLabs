@@ -22,18 +22,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;UWAYONoella&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/UWAYONoella/SheCanCodeJavaAssociateLabs.git&quot;,
-    &quot;accountId&quot;: &quot;f716f83e-4414-40bf-868c-f1ee1c0b79a4&quot;
-  }
-}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsServiceTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,7 +41,9 @@
   "keyToString": {
     "Application.BenchmarkRunner.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.shecancode.persistence.Main.executor": "Run",
     "JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch.executor": "Run",
+    "JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -67,15 +57,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shecancode.designpatterns" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.shecancode.persistence.Main">
     <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shecancode.streams.BenchmarkRunner" />
       <module name="lab2_1_streams" />
@@ -96,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.shecancode.persistence.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.persistence.Main" />
+      <module name="lab2_3_persistence" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnalyticsServiceTest.sequentialAndParallelShouldMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2_1_streams" />
       <extension name="coverage">
@@ -112,10 +116,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationMessageTest.shouldThrowExceptionWhenBodyMissing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2_2_design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.designpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shecancode.designpatterns" />
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.designpatterns.NotificationMessageTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenBodyMissing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SheCanCodeJavaAssociateLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SheCanCodeJavaAssociateLabs" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BenchmarkRunner" />
+        <item itemvalue="Application.com.shecancode.persistence.Main" />
+        <item itemvalue="JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing" />
         <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
+        <item itemvalue="Application.BenchmarkRunner" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -140,12 +173,24 @@
       <workItem from="1782219372195" duration="77000" />
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
-      <workItem from="1782286305096" duration="10107000" />
-      <workItem from="1782317900524" duration="363000" />
+      <workItem from="1782286305096" duration="10739000" />
+      <workItem from="1782376426869" duration="7901000" />
+      <workItem from="1782460331058" duration="1574000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_2_design_patterns/src/main/java/com/shecancode/designpatterns/CreditCardStrategy.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

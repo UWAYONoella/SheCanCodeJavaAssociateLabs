@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_2_design_patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_2_design_patterns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_3_persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_3_persistence/src/main/resources" charset="UTF-8" />
   </component>
 </project>
