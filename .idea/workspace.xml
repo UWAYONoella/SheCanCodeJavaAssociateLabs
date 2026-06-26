@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11d11bb5-5979-46ea-82f7-daab300cbff9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +41,7 @@
   "keyToString": {
     "Application.BenchmarkRunner.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.shecancode.persistence.Main.executor": "Run",
     "JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch.executor": "Run",
     "JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -68,7 +66,7 @@
       <recent name="com.shecancode.designpatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing">
+  <component name="RunManager" selected="Application.com.shecancode.persistence.Main">
     <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shecancode.streams.BenchmarkRunner" />
       <module name="lab2_1_streams" />
@@ -85,6 +83,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lab2_1_streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.shecancode.persistence.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shecancode.persistence.Main" />
+      <module name="lab2_3_persistence" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shecancode.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.shecancode.persistence.Main" />
         <item itemvalue="JUnit.NotificationMessageTest.shouldThrowExceptionWhenBodyMissing" />
         <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
         <item itemvalue="Application.BenchmarkRunner" />
@@ -162,7 +174,8 @@
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
       <workItem from="1782286305096" duration="10739000" />
-      <workItem from="1782376426869" duration="6283000" />
+      <workItem from="1782376426869" duration="7901000" />
+      <workItem from="1782460331058" duration="1574000" />
     </task>
     <servers />
   </component>
