@@ -20,8 +20,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week1_advanced_java_core_foundations" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UWAYONoella&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/UWAYONoella/SheCanCodeJavaAssociateLabs.git&quot;,
+    &quot;accountId&quot;: &quot;f716f83e-4414-40bf-868c-f1ee1c0b79a4&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/week1_advanced_java_core_foundations/lab2_1_streams/src/main/java/com/shecancode/streams/AnalyticsServiceTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -39,8 +51,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BenchmarkRunner.executor": "Debug",
+    "Application.BenchmarkRunner.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -55,6 +68,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch">
@@ -94,21 +112,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SheCanCodeJavaAssociateLabs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SheCanCodeJavaAssociateLabs" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
         <item itemvalue="Application.BenchmarkRunner" />
+        <item itemvalue="JUnit.AnalyticsServiceTest.sequentialAndParallelShouldMatch" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -134,6 +141,7 @@
       <workItem from="1782219482955" duration="2438000" />
       <workItem from="1782223632253" duration="370000" />
       <workItem from="1782286305096" duration="10107000" />
+      <workItem from="1782317900524" duration="363000" />
     </task>
     <servers />
   </component>
